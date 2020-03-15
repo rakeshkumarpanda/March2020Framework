@@ -26,6 +26,7 @@ public class DriverScript extends TestBase
 	{
 		System.out.println("2nd Change");
 		System.out.println("Code Change by Evening Batch");
+		System.out.println("Concept to resolve conflict");
 		System.out.println("Code change for conflict");
 	}
 
