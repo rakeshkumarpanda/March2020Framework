@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+	<test name="FirefoxTest">
+		<parameter name="browsers" value="Firefox">
+			<classes>
+				<class name="com.seleniumeasy.RunnerPackage.DriverScript" />
+			</classes>
+		</parameter>
+	</test> <!-- Test -->
+	<test name="ChromeTest">
+		<parameter name="browsers" value="Chrome">
+			<classes>
+				<class name="com.seleniumeasy.RunnerPackage.DriverScript" />
+			</classes>
+		</parameter>
+	</test> <!-- Test -->
+	<test name="ChromeHeadlessTest">
+		<parameter name="browsers" value="ChromeHeadless">
+			<classes>
+				<class name="com.seleniumeasy.RunnerPackage.DriverScript" />
+			</classes>
+		</parameter>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
